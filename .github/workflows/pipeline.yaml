@@ -16,7 +16,7 @@ uses: actions/checkout@v7.0.1
 - name: Setup Node.js
 uses: actions/setup-node@v7.0.0
 with:
-node-version: 24
+node-version: 20
 - name: Run HTMLHint
 run: npx htmlhint index.html
 - name: Run ESLint
